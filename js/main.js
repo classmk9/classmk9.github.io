@@ -29,7 +29,12 @@ Table of Contents:
 			itemSelector: '.grid-item',
 			percentPosition: true,
 			columnWidth: '.grid-sizer'
-		});
+    });
+
+    // 커스텀
+    setTimeout(() => {
+      window.scrollTo({top:0, left:0, behavior:'auto'});
+    }, 2500)
 	});
 
 	/* 2. Windows on Scroll

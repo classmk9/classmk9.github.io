@@ -660,7 +660,8 @@ input.search-field {
 }
 
 .navbar {
-	background-color: rgba(0, 0, 0, 0.75);
+  /* background-color: rgba(0, 0, 0, 0.75); */
+  background-color: rgba(130, 112, 194, 0.75); /* 커스텀 */
 }
 
 @media only screen and (min-width: 992px) {
@@ -676,7 +677,8 @@ input.search-field {
 }
 
 .navbar.onscroll {
-	background-color: rgba(0, 0, 0, 0.75);
+  /* background-color: rgba(0, 0, 0, 0.75); */
+  background-color: rgba(130, 112, 194, 0.75);  /* 커스텀 */
 }
 
 .navbar.onscroll .navbar-collapse {

@@ -24,7 +24,7 @@ Table of Contents:
 	/* 1. Windows on Load
 	====================*/
 	$(window).on('load', function() {
-		$('.loader').delay(2500).fadeOut('slow');
+		$('.loader').delay(1000).fadeOut('slow');
 		var $grid = $('.grid').masonry({
 			itemSelector: '.grid-item',
 			percentPosition: true,
@@ -34,7 +34,7 @@ Table of Contents:
     // 커스텀
     setTimeout(() => {
       window.scrollTo({top:0, left:0, behavior:'auto'});
-    }, 2500)
+    }, 1000)
 	});
 
 	/* 2. Windows on Scroll

@@ -1467,7 +1467,8 @@ footer .nav-link::after {
 
 footer:before {
 	content: '';
-	background: rgba(0, 0, 0, 0.5);
+	/* background: rgba(0, 0, 0, 0.5); */
+	background: rgba(0, 0, 0, 0.6); /* 가시성 */
 	display: block;
 	width: 100%;
 	height: 100%;

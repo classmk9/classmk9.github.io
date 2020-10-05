@@ -24,18 +24,23 @@ Table of Contents:
 	/* 1. Windows on Load
 	====================*/
 	$(window).on('load', function() {
-		$('.loader').delay(1000).fadeOut('slow');
+		// $('.loader').delay(1000).fadeOut('slow');
 		var $grid = $('.grid').masonry({
 			itemSelector: '.grid-item',
 			percentPosition: true,
 			columnWidth: '.grid-sizer'
     });
 
-    // 커스텀
-    setTimeout(() => {
-      window.scrollTo({top:0, left:0, behavior:'auto'});
-    }, 1000)
-	});
+    // // 커스텀
+    // setTimeout(() => {
+    //   window.scrollTo({top:0, left:0, behavior:'auto'});
+    // }, 1000)
+  });
+  // 커스텀
+  setTimeout(() => {
+    window.scrollTo({top:0, left:0, behavior:'auto'});
+    $('.loader').delay(1000).fadeOut('slow');
+  }, 5000)
 
 	/* 2. Windows on Scroll
 	====================*/
